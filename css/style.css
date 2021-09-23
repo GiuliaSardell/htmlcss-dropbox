@@ -99,7 +99,7 @@ ul li{
 .jumbotron h1{
   padding-top: 50px;
   font-size: 60px;
-  text-align: left;
+  font-weight: bold;
 }
 
 .jumbo-left{
@@ -133,8 +133,7 @@ ul li{
   margin: 20px 0 0 0;
 }
 
-
-i{
+.arrow i{
   font-size: 50px;
   color: black;
 }
@@ -143,5 +142,98 @@ i{
   background-color: white;
   height: 30px;
   margin-top: -55px;
+}
+
+
+/* main */
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.subtitle h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.first .subtitle{
+  margin-top: 100px;
+  margin-bottom: 40px;
 
 }
+
+.circle{
+  background-color: white;
+  color: white;
+  line-height: 50px;
+  border-radius: 50%;
+  padding: 2px 8px;
+}
+
+.border-blu{
+  border: 4px solid #0061FF;
+
+}
+
+.border-grey{
+  border: 2px solid lightgrey;
+  margin-left: 30px;
+}
+
+.column{
+  display: inline-block;
+  width: calc(100% / 3 - 2%);
+  border: 3px solid grey;
+  background-color: red;
+}
+
+.columns i{
+  margin-right: 10px;
+}
+
+.title-col{
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid grey ;
+}
+
+.col-right, .col-center, .col-left{
+  float: left;
+}
+
+.content-col{
+  width: 80%;
+  margin: 0 auto;
+}
+.content-col h2{
+  margin: 10px 0;
+}
+
+.price{
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.color-grey{
+  display: block;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+.user{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.space{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.pen, .img-pen{
+  float: left;
+}
+
