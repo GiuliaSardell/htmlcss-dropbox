@@ -206,6 +206,7 @@ ul li{
 .content-col{
   width: 80%;
   margin: 0 auto;
+  font-size: 12px;
 }
 .content-col h2{
   margin: 10px 0;
@@ -228,12 +229,9 @@ ul li{
   margin-bottom: 20px;
 }
 
-.space{
+.space, .pen{
   display: block;
   margin-bottom: 20px;
 }
 
-.pen, .img-pen{
-  float: left;
-}
 
