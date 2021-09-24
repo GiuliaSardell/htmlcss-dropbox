@@ -349,8 +349,8 @@ header{
   vertical-align: middle;
 }
 
-.square-img a img:hover .square-img{
-  border: 5px solid rgba(100, 100, 100, 0.5);
+.square-img a:hover{
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .square1{
