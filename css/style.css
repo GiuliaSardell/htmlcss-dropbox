@@ -292,8 +292,8 @@ header{
 .partner{
   margin: 100px 0;
 }
+
 .partner-img img{
-  width: 100%;
   width: 450px;
 }
 
@@ -301,6 +301,7 @@ header{
   max-width: 45%;
   margin-top: 50px;
 }
+
 
 .img1-row img, .img2-row img, .img3-row img{
   width: 200px;
@@ -329,14 +330,24 @@ header{
 
 /* ***************blocchi logo********** */
 
-.clients{
+/* .clients{
   width: 100%;
+  margin: 0 auto;
+} */
+
+.square-img {
+  width: 200px;
+  height: 200px;
+  background-color: green;
 }
 
 .square-img img{
-  width: 228px;
-  height: 228px;
-  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+.square1{
+  width: 400px;
 }
 
 
@@ -349,10 +360,16 @@ header{
   width: 160px;
 }
 
+.block{
+  margin-right: 50px;
 
+}
 
+.block2{
+  margin-left: 50px;
+}
 .block, .block2{
-  width: 30%;
+  width: 400px;
 }
 
 .block-central{
