@@ -302,7 +302,6 @@ header{
   margin-top: 50px;
 }
 
-
 .img1-row img, .img2-row img, .img3-row img{
   width: 200px;
 }
@@ -330,30 +329,41 @@ header{
 
 /* ***************blocchi logo********** */
 
-/* .clients{
-  width: 100%;
-  margin: 0 auto;
-} */
-
 .square-img {
   width: 200px;
   height: 200px;
   background-color: green;
+  text-align: center;
+  line-height: 200px;
+  
 }
 
 .square-img img{
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  vertical-align: middle;
+
+}
+
+.square-img a{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.square-img a img:hover .square-img{
+  border: 5px solid rgba(100, 100, 100, 0.5);
 }
 
 .square1{
   width: 400px;
 }
 
-
 .block-central-text{
   width: 80%;
   margin: 30px auto;
+}
+
+.block-central-text p{
+  margin: 30px 0;
 }
 
 .block-central img{
@@ -362,12 +372,12 @@ header{
 
 .block{
   margin-right: 50px;
-
 }
 
 .block2{
   margin-left: 50px;
 }
+
 .block, .block2{
   width: 400px;
 }
