@@ -429,9 +429,17 @@ header{
   border-bottom: 1px solid lightgrey;
 }
 
+.none{
+  display: none;
+}
+
 .angle{
   color: black;
   text-decoration: none;
+}
+
+.angle:hover .none{
+  display: inline-block;
 }
 
 .footer-black{
@@ -449,8 +457,6 @@ header{
 
 .list-footer{
   color: white;
-  /* width: 80%;
-  margin: 0px auto; */
   margin: 0 50px;
   padding-top: 80px;
 }
@@ -470,3 +476,6 @@ header{
   margin: 15px 0;
 }
 
+.list-footer ul li a:hover{
+  border-bottom: 1px solid white;
+}
