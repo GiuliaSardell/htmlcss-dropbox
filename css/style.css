@@ -15,6 +15,14 @@ body{
   clear: both;
 }
 
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
 header{
   position: fixed;
   top: 0;
@@ -69,12 +77,10 @@ ul li{
 }
 
 .header-left{
-  float: left;
   margin-left: 20px;
 }
 
 .header-right{
-  float: right;
   margin-right: 20px;
 }
 
@@ -108,7 +114,6 @@ ul li{
 }
 
 .jumbo-left{
-  float: left; 
   max-width: 35%;
   font-size: 18px;
   margin-top: 50px;
@@ -125,8 +130,6 @@ ul li{
 }
 
 .jumbo-right{
-  float: right;
-  /* background-image: url(../img/jumbo.png); */
   max-width: 65%;
   height: 400px;
   margin-top: 70px;
@@ -189,7 +192,6 @@ ul li{
   width: calc(100% / 3 - 4%);
   border: 1px solid grey;
   background-color: white;
-  /* margin: 0 2%; */
   padding-bottom: 30px;
 }
 
@@ -203,9 +205,6 @@ ul li{
   border-bottom: 1px solid grey ;
 }
 
-.col-right, .col-center, .col-left{
-  float: left;
-}
 
 .content-col{
   width: 80%;
@@ -250,7 +249,7 @@ ul li{
   margin-bottom: 30px;
 }
 
-.link a{
+.link-blu{
   color: #0061FF;
 }
 
@@ -269,24 +268,96 @@ ul li{
   color: #0061FF;
 }
 
-.orizontal-col{
+.horizontal-col{
   border: 1px solid grey;
   margin: 40px 0;
 }
 
-.content-orizontal-col{
+.content-horizontal-col{
   position: relative;
   padding: 20px 30px;
 }
 
-.btn-orizontal{
+.btn-horizontal{
   position: absolute;
   top: 20px;
   right: 50px;
   padding: 5px 40px;
 }
 
-.text-orizontal-col{
+.text-horizontal-col{
   display: inline-block;
   margin-top: 30px;
 }
+
+
+.partner{
+  margin: 100px 0;
+}
+.partner-img img{
+  width: 100%;
+  width: 450px;
+}
+
+.partner-text{
+  max-width: 45%;
+  margin-top: 50px;
+}
+
+.img1-row img, .img2-row img, .img3-row img{
+  width: 200px;
+}
+
+.img1-row, .img2-row, .img3-row{
+  width: calc(100% / 3 - 6%);
+}
+
+.img2-row{
+  margin: 0 9%;
+}
+
+.row2{
+  margin-top: 100px;
+}
+
+.horizontal-part{
+  margin: 100px 0 50px 0;
+}
+
+.team{
+  margin-bottom: 30px;
+}
+
+
+/* ***************blocchi logo********** */
+
+.clients{
+  width: 100%;
+}
+
+.square-img img{
+  width: 228px;
+  height: 228px;
+  background-color: green;
+}
+
+
+.block-central-text{
+  width: 80%;
+  margin: 30px auto;
+}
+
+.block-central img{
+  width: 160px;
+}
+
+
+
+.block, .block2{
+  width: 30%;
+}
+
+.block-central{
+  width: 40%;
+}
+
