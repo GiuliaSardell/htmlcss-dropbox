@@ -349,8 +349,12 @@ header{
 
 /* ***************blocchi logo********** */
 
+.clients{
+  width: 100vw;
+}
+
 .square-img {
-  width: 50%;
+  width: 15vw;
   max-height: 200px;
   text-align: center;
   line-height: 200px;
@@ -361,11 +365,43 @@ header{
   width: 50%;
   vertical-align: middle;
   filter: invert(1);
-
 }
 
 .square-img a{
   vertical-align: middle;
+}
+
+.square1{
+  width: 30vw;
+}
+
+.block-central{
+  width: calc(100% - 60vw); 
+  overflow: auto;
+  height: 30vw; 
+}
+
+.block-central-text{
+  width: 80%;
+  margin: 30px auto;
+}
+
+.block-central-text p{
+  margin: 30px 0;
+}
+
+.block-central img{
+  width: 160px;
+}
+
+.block, .block2{
+  width: 30vw;
+}
+
+
+
+.block-central-text p{
+  overflow: auto;
 }
 
 
@@ -404,35 +440,7 @@ header{
 }
 /* *** / fine colori blocchi/ *** */
 
-.square1{
-  width: 400px;
-}
-
-.block-central-text{
-  width: 80%;
-  margin: 30px auto;
-}
-
-.block-central-text p{
-  margin: 30px 0;
-}
-
-.block-central img{
-  width: 160px;
-}
-
-.block, .block2{
-  width: 26%;
-}
-
-.block-central{
-  width: 48%;
-  overflow: auto;
-}
-
-.block-central-text p{
-  overflow: auto;
-}
+/* **********SEZIONE 5*************** */
 
 .horizontal-blu{
   background-color: #B4D0E7;
@@ -492,8 +500,8 @@ header{
   text-decoration: none;
 }
 
-.angle:hover .none{
-  display: inline-block;
+.angle:hover{
+  display: none;
 }
 
 
