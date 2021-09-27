@@ -48,7 +48,7 @@ header{
 }
 
 .btn:hover{
-  background-color: #3161E0;
+  background-color: #25AAFF;
 }
 
 .header ul{
@@ -67,7 +67,6 @@ header{
   border-bottom: 2px solid #0061FF;
 }
 
-
 .header ul li{
   display: inline-block;
   margin: 0 30px;
@@ -84,11 +83,11 @@ header{
 }
 
 
-/* jumbotron */
+/* ************* jumbotron ********* */
 
 .jumbotron{
   background-color: #B4D0E7;
-  max-height: 650px;
+  max-height: 600px;
   margin-top: 80px;
 }
 
@@ -123,10 +122,6 @@ header{
   font-size: 14px;
 }
 
-.screen{
-  display: inline-block;
-  width: 100px;
-}
 
 .jumbo-right{
   max-width: 65%;
@@ -149,7 +144,9 @@ header{
 }
 
 
-/* main */
+/*************** main *************/
+
+/* ************SEZIONE 1*********** */
 
 .container{
   width: 60%;
@@ -168,22 +165,8 @@ header{
 
 }
 
-.circle{
-  background-color: white;
-  color: white;
-  line-height: 50px;
-  border-radius: 50%;
-  padding: 2px 8px;
-}
-
-.border-blu{
-  border: 4px solid #0061FF;
-
-}
-
-.border-grey{
-  border: 2px solid lightgrey;
-  margin-left: 30px;
+.radiocheck{
+  margin: 10px;
 }
 
 .column{
@@ -191,7 +174,7 @@ header{
   width: calc(100% / 3 - 4%);
   border: 1px solid grey;
   background-color: white;
-  padding-bottom: 30px;
+  padding-bottom: 150px;
 }
 
 .columns i{
@@ -203,7 +186,6 @@ header{
   padding: 10px;
   border-bottom: 1px solid grey ;
 }
-
 
 .content-col{
   width: 80%;
@@ -236,7 +218,7 @@ header{
   margin-bottom: 40px;
 }
 
-.space, .pen, .user, .link{
+.symbol{
   display: block;
   margin-bottom: 20px;
 }
@@ -289,17 +271,49 @@ header{
   margin-top: 30px;
 }
 
+/* *******************SEZIONE 2***************** */
+
 .partner{
   margin: 100px 0;
 }
 
-.partner-img img{
-  width: 450px;
+.partner-img{
+  background-image: url(../img/partner.png);
+  width: 50%;
+  min-height: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .partner-text{
   max-width: 45%;
   margin-top: 50px;
+}
+
+.partner-text p{
+  margin-bottom: 50px;
+}
+
+.btn-white-empty{
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  margin: 0;
+}
+
+.btn-white-empty:hover, .btn-white:hover{
+  background-color: lightgrey;
+}
+
+/* ******************SEZIONE 3************* */
+
+.horizontal-business{
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+.business h3{
+  padding-bottom: 20px;
 }
 
 .img1-row img, .img2-row img, .img3-row img{
@@ -315,11 +329,17 @@ header{
 }
 
 .row2{
-  margin-top: 100px;
+  margin-top: 80px;
 }
+
+/* **********************SEZIONE 4************* */
 
 .horizontal-part{
   margin: 100px 0 50px 0;
+}
+
+.horizontal-part h2{
+  font-size: 30px;
 }
 
 .team{
@@ -330,28 +350,59 @@ header{
 /* ***************blocchi logo********** */
 
 .square-img {
-  width: 200px;
-  height: 200px;
-  background-color: green;
+  width: 50%;
+  max-height: 200px;
   text-align: center;
   line-height: 200px;
-  
+  display: block;
 }
 
 .square-img img{
   width: 50%;
   vertical-align: middle;
+  filter: invert(1);
 
 }
 
 .square-img a{
-  display: inline-block;
   vertical-align: middle;
 }
 
-.square-img a:hover{
-  background-color: rgba(255, 255, 255, 0.7);
+
+/* ****colori blocchi**** */
+.designit{
+  background-color: #A2D39B;
+  border: 10px solid rgba(255, 255, 255, 0.2);
 }
+
+.arizona{
+  background-color: #61082C;
+}
+
+.florida{
+  background-color: #1D93CE;
+}
+
+.topps{
+  background-color:  #F91C1D;
+}
+
+.bicycle{
+  background-color: #D5021F;
+}
+
+.hearst{
+  background-color: #B4D0E7;
+}
+
+.lonely{
+  background-color: #0D2481;
+}
+
+.channel{
+  background-color: #FED830;
+}
+/* *** / fine colori blocchi/ *** */
 
 .square1{
   width: 400px;
@@ -370,20 +421,17 @@ header{
   width: 160px;
 }
 
-.block{
-  margin-right: 50px;
-}
-
-.block2{
-  margin-left: 50px;
-}
-
 .block, .block2{
-  width: 400px;
+  width: 26%;
 }
 
 .block-central{
-  width: 40%;
+  width: 48%;
+  overflow: auto;
+}
+
+.block-central-text p{
+  overflow: auto;
 }
 
 .horizontal-blu{
@@ -401,12 +449,17 @@ header{
   transform: translate(-50%, -50%);
 }
 
+.horizontal-blu-content h2{
+  font-size: 30px;
+}
+
 .btn-white{
   background-color: white;
   color: black;
-  margin: 0;
   top: 0;
 }
+
+
 
 /* **************Q&A************ */
 
@@ -419,6 +472,7 @@ header{
 }
 
 .titleqea h2 {
+  font-size: 30px;
   line-height: 80px;
   border-bottom: 1px solid lightgrey;
   padding-bottom: 30px;
@@ -442,6 +496,10 @@ header{
   display: inline-block;
 }
 
+
+
+/* *********FOOTER******** */
+
 .footer-black{
   background-color: black;
   width: 100%;
@@ -456,6 +514,7 @@ header{
 }
 
 .list-footer{
+  width: calc(100% / 5 - 9% );
   color: white;
   margin: 0 50px;
   padding-top: 80px;
